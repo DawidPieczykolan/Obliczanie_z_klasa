@@ -8,6 +8,7 @@ namespace Klasa
 {
     public class Karta
     {
+<<<<<<< HEAD
         List<float> oceny = new List<float>();
 
         public void DodajOcene(float ocena) 
@@ -27,6 +28,17 @@ namespace Klasa
             }
             srednia=suma / oceny.Count;
             return srednia;
+=======
+        List<float> oceny;
+
+        public void Dodajocene(float ocena) 
+        {
+            oceny.Add(ocena);
+        }
+        public float Obliczsrednia() 
+        {
+          return oceny.Average();
+>>>>>>> 36549db0d80ce7f755308b95b21fe79d24dea8ec
         }
         public float NajniszaOcena() 
         {

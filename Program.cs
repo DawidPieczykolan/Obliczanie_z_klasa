@@ -8,6 +8,7 @@ namespace Klasa
 {
     internal class Program
     {
+<<<<<<< HEAD
         
 
         static void Main(string[] args)
@@ -64,6 +65,10 @@ namespace Klasa
                 Console.ReadKey();
             }
 
+=======
+        static void Main(string[] args)
+        {
+>>>>>>> 36549db0d80ce7f755308b95b21fe79d24dea8ec
         }
     }
 }
