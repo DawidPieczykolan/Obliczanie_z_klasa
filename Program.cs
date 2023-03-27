@@ -8,9 +8,18 @@ namespace Klasa
 {
     internal class Program
     {
+<<<<<<< HEAD
         static void Main(string[] args)
         {
             Karta karta = new Karta();
+=======
+<<<<<<< HEAD
+        
+
+        static void Main(string[] args)
+        {
+            Karta karta=new Karta();
+>>>>>>> bb69ad9705ca8f2e5f7312d2bb2c25490dc653eb
             Karta kartaUser = new Karta();
 
 
@@ -53,6 +62,14 @@ namespace Klasa
                 kartaSatystyki statystyki = karta.obliczSatystyki();
             }
 
+<<<<<<< HEAD
         }       
+=======
+=======
+        static void Main(string[] args)
+        {
+>>>>>>> 36549db0d80ce7f755308b95b21fe79d24dea8ec
+        }
+>>>>>>> bb69ad9705ca8f2e5f7312d2bb2c25490dc653eb
     }
 }
